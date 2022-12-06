@@ -37,7 +37,7 @@ export default function Calc() {
 				</div>
 				<div className="w-full flex flex-col justify-between p-[1rem]">
 					<p className="text-center text-[1.6rem]">
-						Enter the distance commuted
+						Enter the distance commuted (kms)
 					</p>
 					<input
 						type="text"
@@ -49,7 +49,7 @@ export default function Calc() {
 					<button
 						onClick={() => {
 							console.log(input * rate);
-							setOutput((input * rate).toString() + " calories");
+							setOutput((input * rate).toString() + " carbon footprint");
 							setInput("");
 						}}
 						className="p-[1rem] rounded-[1rem] bg-red-300"
@@ -57,7 +57,7 @@ export default function Calc() {
 						Submit
 					</button>
 					<p className="text-center p-[1rem] rounded-[1rem] bg-yellow-300 text-black">
-						{output == "" ? "Calories burnt" : output}
+						{output == "" ? <p className="text-yellow-300">s</p> : output}
 					</p>
 				</div>
 			</div>

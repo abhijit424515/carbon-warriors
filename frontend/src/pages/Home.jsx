@@ -31,7 +31,7 @@ export default function Home() {
 			>
 				<div className="w-full h-full flex justify-between items-center">
 					<button
-						className="w-[10%] h-1/2 z-50 others:hidden tablet:block"
+						className="w-[10%] h-1/2 z-50 others:hidden tablet:block outline-none"
 						onClick={() => setIndex((index - 1 + 3) % 3)}
 					>
 						<div className="flex justify-center items-center text-[3rem]">
@@ -45,7 +45,7 @@ export default function Home() {
 						</div>
 					</div>
 					<button
-						className="w-[10%] h-1/2 z-50 others:hidden tablet:block"
+						className="w-[10%] h-1/2 z-50 others:hidden tablet:block outline-none"
 						onClick={() => setIndex((index + 1) % 3)}
 					>
 						<div className="flex justify-center items-center text-[3rem]">

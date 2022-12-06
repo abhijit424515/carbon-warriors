@@ -152,7 +152,12 @@ export default function Sidebar(props) {
 					</div>
 					<div className="w-full h-full flex justify-center items-center">
 						<div className="bg-white rounded-full p-[0.5rem] flex justify-center items-center cursor-pointer">
-							<SiGmail className="text-[1.5rem]" />
+							{/* <Mailto email="j@sonbellamy.com" obfuscate={true}> */}
+							<SiGmail
+								className="text-[1.5rem]"
+								href="mailto:someone@example.com"
+							/>
+							{/* </Mailto> */}
 						</div>
 					</div>
 				</div>

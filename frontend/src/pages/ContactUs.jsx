@@ -24,7 +24,9 @@ export default function ContactUs() {
 				<div className="w-full h-full py-[1rem] flex flex-row justify-center items-center others:flex-wrap laptop:flex-nowrap">
 					<div className="w-full h-3/4 flex flex-col justify-between text-[1.2rem] mr-[0.5rem]">
 						<p className="text-[2rem] font-bold">Carbon Warriors</p>
-						<p className="">Indian Institute of Technology, Bombay - 400076</p>
+						<p className="">
+							Birla Institute of Technology & Science Pilani, Hyderabad
+						</p>
 						<p className="flex flex-row items-center">
 							<IoMdCall className="mr-[1rem]" /> +91 999-9999-999
 						</p>
@@ -104,7 +106,8 @@ export default function ContactUs() {
 					<div className="w-full ml-[0.5rem]">
 						<Iframe
 							className="h-full w-full rounded-[1rem] outline-none border-none"
-							src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.4121005393426!2d72.91107921490203!3d19.133430187054966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f189efc039%3A0x68fdcea4c5c5894e!2sIndian%20Institute%20of%20Technology%20Bombay!5e0!3m2!1sen!2sin!4v1670328553015!5m2!1sen!2sin&z=14`}
+							// src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.4121005393426!2d72.91107921490203!3d19.133430187054966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f189efc039%3A0x68fdcea4c5c5894e!2sIndian%20Institute%20of%20Technology%20Bombay!5e0!3m2!1sen!2sin!4v1670328553015!5m2!1sen!2sin&z=14`}
+							src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.216125701517!2d78.56964931490195!3d17.544893902861233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb83594a86132d%3A0xc3e06e9e76cebf3d!2sBirla%20Institute%20of%20Technology%20%26%20Science%20Pilani%2C%20Hyderabad%20Campus!5e0!3m2!1sen!2sin!4v1670351586932!5m2!1sen!2sin"&z=14`}
 						></Iframe>
 					</div>
 				</div>
