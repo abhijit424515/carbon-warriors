@@ -14,21 +14,21 @@ export default function Calc() {
 				<div className="w-full flex flex-col justify-between items-center p-[1rem]">
 					<p className="text-center text-[1.6rem]">Mode of commuting</p>
 					<button
-						onClick={() => setRate(0.275)}
+						onClick={() => setRate(0.012)}
 						className="p-[1rem] rounded-[1rem] bg-red-300 w-max flex justify-center items-center"
 					>
 						<TbWalk className="mr-[0.5rem] text-[1.2rem]" />
 						Walking
 					</button>
 					<button
-						onClick={() => setRate(0.012)}
+						onClick={() => setRate(0.005)}
 						className="p-[1rem] rounded-[1rem] bg-red-300 w-max flex justify-center items-center"
 					>
 						<BsBicycle className="mr-[0.5rem] text-[1.2rem]" />
 						Cycling
 					</button>
 					<button
-						onClick={() => setRate(0.005)}
+						onClick={() => setRate(0.275)}
 						className="p-[1rem] rounded-[1rem] bg-red-300 w-max flex justify-center items-center"
 					>
 						<MdDriveEta className="mr-[0.5rem] text-[1.2rem]" />
@@ -49,7 +49,7 @@ export default function Calc() {
 					<button
 						onClick={() => {
 							console.log(input * rate);
-							setOutput((input * rate).toString() + " carbon footprint");
+							setOutput((input * rate).toString() + " KG carbon footprint");
 							setInput("");
 						}}
 						className="p-[1rem] rounded-[1rem] bg-red-300"
